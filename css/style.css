@@ -59,6 +59,9 @@ p, body {
   text-align: center;
   padding-bottom: 10px;
 }
+li {
+  font-style: ;
+}
 
 /*PORTFOLIO*/
 .container {
@@ -94,33 +97,33 @@ p, body {
   padding-bottom: 5%;
   margin-bottom: 10%;
 }
-.slide .photo-overlay {
-  opacity: 1;
-  background: rgba(41,41,41,.75);
-}
 /*Float clearfix*/
 .clearfix::after {
   content: " ";
   display: table;
   clear: both;
 }
-/*Image Transforms & Transitions*/
-.slide .photo-overlay,
-.slide img {
-  transition: transform .5s ease-out;
-}
 .slide .photo-overlay {
-  transform: translateX(101%);
-}
-/*slides photo overlay back into view*/
-.slide:hover .photo-overlay {
-  transform: translateX(0);
+  opacity: 1;
+  background: rgba(41,41,41,.75);
 }
 
 /*Media Queries*/
 @media (min-width: 0) and (max-width: 588px) {
   .container {
     padding: 0 1.225em 2.5em;
+  }
+  .navbar-text {
+    font-size: 1.25em;
+  }
+  #brand-img {
+    max-width: 25px;
+  }
+  .title {
+    font-size: .6em;
+  }
+  .sftw-logo {
+    max-height: 50px;
   }
 }
 @media (min-width: 589px) {
@@ -131,6 +134,18 @@ p, body {
     width: 48%;
     float: left;
     margin-left: 4%;
+  }
+  /*Image Transforms & Transitions*/
+  .slide .photo-overlay,
+  .slide img {
+    transition: transform .5s ease-out;
+  }
+  .slide .photo-overlay {
+    transform: translateX(101%);
+  }
+  /*slides photo overlay back into view*/
+  .slide:hover .photo-overlay {
+    transform: translateX(0);
   }
 }
 @media (min-width: 590px) and (max-width: 767px) { 
