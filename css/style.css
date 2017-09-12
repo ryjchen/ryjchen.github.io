@@ -105,7 +105,7 @@ li {
 }
 .slide .photo-overlay {
   opacity: 1;
-  background: rgba(41,41,41,.75);
+  background: rgba(41,41,41,.7);
 }
 
 /*Media Queries*/
@@ -120,10 +120,21 @@ li {
     max-width: 25px;
   }
   .title {
-    font-size: .6em;
+    font-size: .45em;
+    margin-left: -10px;
   }
   .sftw-logo {
     max-height: 50px;
+  }
+  .personas{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+  .photo-container {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
   }
 }
 @media (min-width: 589px) {
