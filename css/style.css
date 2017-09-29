@@ -1,23 +1,23 @@
 /*HEADER*/
 #brand-img {
-    max-width: 30px;
-    /*margin-top: -3px;*/
+    max-width: 20px;
+    padding-top: 6px;
 }
 .navbar {
-	background-color: #fff !important;
-	border-bottom: none !important;
-	margin-bottom: 5px !important;
+  background-color: #fff !important;
+  border-bottom: none !important;
+  margin-bottom: 5px !important;
 }
 .navbar a {
-	text-align: center;
+  text-align: center;
 }
 .navbar-default, .navbar-toggle, .navbar-default:hover, .navbar-toggle:hover {
-	border-color: #fff !important;
-	background-color: #fff !important;
+  border-color: #fff !important;
+  background-color: #fff !important;
 }
 .navbar-nav>li>a:hover {
-	background-color: #fff !important;
-	border-bottom: 3px solid #D8D8D8;
+  background-color: #fff !important;
+  border-bottom: 3px solid #D8D8D8;
   padding-bottom: 5px !important;
   padding-top: 20px !important;
 }
@@ -25,42 +25,24 @@
   padding-top: 20px !important;
 }
 .navbar-custom .navbar-nav > .active > a {
-	border-radius: 0;
-	background-color: #fff !important;
-	border-bottom: 3px solid #98CCFA;
+  border-radius: 0;
+  background-color: #fff !important;
+  border-bottom: 3px solid #98CCFA;
   padding-bottom: 5px !important;
   padding-top: 20px !important;
   color: #000 !important;
 }
 .navbar-text {
-	font-size: 1.5em;
-	margin-top: 10px;
-	margin-left: -3px !important;
-	margin-right: 0px !important;
-	color: #000 !important;
+  font-size: 18px;
+  padding-top: 4px !important;
+  margin-left: -5px !important;
+  margin-right: 0px !important;
+  color: #000 !important;
 }
-
-/*BODY*/
-h2, h3 {
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif !important;
-	font-size: 1.6em !important;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
-}
-h3 {
-	font-size: 1.3em !important;
-}
-p, body {
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif !important;
-}
-.center {
-  text-align: center;
-  padding-bottom: 10px;
-}
-li {
-  font-style: ;
+.proj-cap {
+  font-size: 18px;
+  font-weight: 400 !important;
+  padding-bottom: 5px;
 }
 
 /*PORTFOLIO*/
@@ -105,7 +87,7 @@ li {
 }
 .slide .photo-overlay {
   opacity: 1;
-  background: rgba(41,41,41,.7);
+  background: rgba(41,41,41,.8);
 }
 
 /*Media Queries*/
@@ -120,7 +102,7 @@ li {
     max-width: 25px;
   }
   .title {
-    font-size: .45em;
+    font-size: 20px;
     margin-left: -10px;
   }
   .sftw-logo {
@@ -191,14 +173,13 @@ li {
   }
 }
 
-
 /*SKILLS*/
 .sftw-logo {
-	height: auto;
-	width: auto;
-	max-height: 80px;
-	padding-right: 3%;
-	padding-top: 15px;
+  height: auto;
+  width: auto;
+  max-height: 80px;
+  padding-right: 3%;
+  padding-top: 15px;
 }
 
 /*FOOTER*/
@@ -211,6 +192,7 @@ footer {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 5px;
+  margin-top: 5%;
 }
 .copyright {
   padding: 1% 0;
@@ -221,20 +203,14 @@ footer {
   color: #fff !important;
 }
 
-
 /*582 PROJECT PAGE*/
-.project-img {
-  width: 70%;
+.process-img {
+  width: 80%;
   display: block;
+  padding-top: 20px;
   margin: 0 auto;
 }
-.pics {
-  width: 60%;
-  max-width: 400px;
-  padding-bottom: 20px;
-  display: block;
-  margin: 0 auto;
-}
+
 .project-hero{
   color: #0a165f;
   display: block;
@@ -288,4 +264,3 @@ footer {
 #easy-top:hover:after {
   border-color: transparent transparent rgba(58, 206, 194, 0.6) transparent;
 }
-

@@ -1,0 +1,92 @@
+section {
+	padding: 0 15%;
+}
+a, .footer {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 14px;
+}	
+h1 {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	padding: 3% 5% 0 5%;
+}
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 900;
+	padding-top: 10%;
+}
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+p, ul, ol, tr, td {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 18px;
+	color: #444;
+	line-height: 30px;
+}
+p {
+	padding-bottom: 10px;
+}
+ol li {
+	font-size: 20px;
+	font-weight: 700;
+}
+b {
+	font-weight: 700;
+	color: #000;
+}
+.caption, .caption-top {
+	padding-top: 5px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 700;
+	line-height: 15px;
+}
+.caption-top {
+	padding-bottom: 20px;
+}
+.center {
+	display: block;
+	margin: 0 auto;
+}
+.pics {
+	width: 60%;
+  	max-width: 400px;
+  	padding: 5px 0;
+  	display: block;
+  	margin: 0 auto;
+}
+.navbar-text {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 18px !important;
+    margin-top: 13px !important;
+    margin-left: -5px !important;
+    margin-right: 0px !important;
+    color: #000 !important;
+}
+table {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 14px;
+	display: block;
+	padding: 5% 0;
+}
+td, th {
+	border: 1px solid #eee;
+	text-align: left;
+	padding: 8px;
+}
+@media (min-width: 768px) { 
+  .process-img {
+	width: 90%;
+  }
+}
+@media (min-width: 992px) { 
+  section {
+  	padding: 0 25%;
+  }
+}
