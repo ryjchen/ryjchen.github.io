@@ -69,6 +69,10 @@ b {
     margin-right: 0px !important;
     color: #000 !important;
 }
+.navbar {
+	box-shadow: -1px 3px 3px #ddd !important;
+}
+
 table {
 	font-family: 'Gentium Book Basic', serif;
 	font-size: 14px;
@@ -87,6 +91,6 @@ td, th {
 }
 @media (min-width: 992px) { 
   section {
-  	padding: 0 25%;
+  	padding: 0 22%;
   }
 }
