@@ -24,7 +24,8 @@ h3 {
 	font-weight: 700;
 }
 p, ul, ol, tr, td {
-	font-family: 'Gentium Book Basic', serif;
+	/*font-family: 'Gentium Book Basic', serif;*/
+	font-family: 'Lora', serif;
 	font-size: 18px;
 	color: #444;
 	line-height: 30px;
@@ -35,6 +36,10 @@ p {
 ol li {
 	font-size: 20px;
 	font-weight: 700;
+}
+li {
+	color: #333;
+	padding-bottom: 10px;
 }
 b {
 	font-weight: 700;
