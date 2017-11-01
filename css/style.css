@@ -70,6 +70,7 @@ h3 {
 }
 .photo-container img {
   max-width: 100%;
+/*  margin-left: 5%;*/
 }
 .photo-overlay {
   color: #fff;
@@ -84,6 +85,7 @@ h3 {
   background: rgba(0,0,0, .5);
   padding-bottom: 5%;
   margin-bottom: 10%;
+/*  height: 100%;*/
 }
 /*Float clearfix*/
 .clearfix::after {

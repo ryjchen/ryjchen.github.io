@@ -25,13 +25,17 @@ h3 {
 }
 p, ul, ol, tr, td {
 	/*font-family: 'Gentium Book Basic', serif;*/
-	font-family: 'Lora', serif;
+	/*font-family: 'Lora', serif;*/
 	font-size: 18px;
 	color: #444;
 	line-height: 30px;
 }
 p {
-	padding-bottom: 10px;
+	/*padding-bottom: 10px;*/
+	margin-bottom: 0px;
+}
+.list-inline {
+	margin-bottom: 0px !important;
 }
 ol li {
 	font-size: 20px;
@@ -77,7 +81,20 @@ b {
 .navbar {
 	box-shadow: -1px 3px 3px #ddd !important;
 }
-
+.projnav {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.nextproj {
+	float: right;
+	font-size: 18px;
+	color: #444;
+}
+.prevproj {
+	float: left;
+	font-size: 18px;
+	color: #444;
+}
 table {
 	font-family: 'Gentium Book Basic', serif;
 	font-size: 14px;
