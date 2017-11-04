@@ -74,7 +74,7 @@ h3 {
 }
 .photo-overlay {
   color: #fff;
-  position: absolute;
+/*  position: absolute;*/
   right: 0;
   bottom: 0; 
   left: 0;
@@ -82,10 +82,10 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(0,0,0, .5);
+  /*background: rgba(0,0,0, .5);*/
   padding-bottom: 5%;
   margin-bottom: 10%;
-/*  height: 100%;*/
+  
 }
 /*Float clearfix*/
 .clearfix::after {
@@ -95,7 +95,8 @@ h3 {
 }
 .slide .photo-overlay {
   opacity: 1;
-  background: rgba(41,41,41,.8);
+  /*background: rgba(41,41,41,.9);*/
+  background: rgba(0,0,0,.65);
 }
 
 /*Media Queries*/
@@ -145,17 +146,30 @@ h3 {
     float: left;
     margin-left: 4%;
   }
+  .photo-overlay {
+    position: absolute;
+    height: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+  }
   /*Image Transforms & Transitions*/
   .slide .photo-overlay,
   .slide img {
-    transition: transform .5s ease-out;
+    transition: transform .4s ease-out;
   }
   .slide .photo-overlay {
-    transform: translateX(101%);
+    /*transform: translateX(101%);*/
+    opacity: 0;
+    transition: opacity .5s;
   }
   /*slides photo overlay back into view*/
-  .slide:hover .photo-overlay {
-    transform: translateX(0);
+  .slide:hover .photo-overlay{
+    /*transform: translateX(0);*/
+    opacity: 1;
+  }
+  .slide:hover img {
+    transform: scale(1.1);
   }
 }
 @media (min-width: 590px) and (max-width: 767px) { 
@@ -175,7 +189,7 @@ h3 {
     padding: 0 5%;
   }
 }
-@media (min-width: 768px) { 
+@media (min-width: 922px) { 
   .photo-container {
     width: 30.63973064%;
   }
