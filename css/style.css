@@ -1,7 +1,8 @@
 /*HEADER*/
 #brand-img {
-    max-width: 20px;
-    padding-top: 6px;
+    max-width: 175px;
+    padding-top: 7px;
+    padding-left: 10px;
 }
 .navbar {
   background-color: #fff !important;
@@ -107,9 +108,9 @@ h3 {
   .navbar-text {
     font-size: 1.25em;
   }
-  #brand-img {
+  /*#brand-img {
     max-width: 25px;
-  }
+  }*/
   .title {
     font-style: none;
     font-size: 30px;

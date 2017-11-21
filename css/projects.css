@@ -26,7 +26,7 @@ h3 {
 p, ul, ol, tr, td {
 	/*font-family: 'Gentium Book Basic', serif;*/
 	/*font-family: 'Lora', serif;*/
-	font-size: 18px;
+	font-size: 16px;
 	color: #444;
 	line-height: 30px;
 }
@@ -51,9 +51,9 @@ b {
 }
 .caption, .caption-top {
 	padding-top: 5px;
-	font-size: 14px;
+	font-size: 13px;
 	text-align: center;
-	font-weight: 700;
+	/*font-weight: 700;*/
 	line-height: 15px;
 }
 .caption-top {
@@ -95,6 +95,12 @@ b {
 	font-size: 18px;
 	color: #444;
 }
+.project-img {
+	width: 90%;
+	display: block;
+  	margin: 0 auto;
+  	padding: 2% 0;
+}
 table {
 	font-family: 'Gentium Book Basic', serif;
 	font-size: 14px;
@@ -109,6 +115,9 @@ td, th {
 @media (min-width: 768px) { 
   .process-img {
 	width: 90%;
+  }
+  .project-img {
+  	width: 60%;
   }
 }
 @media (min-width: 992px) { 
