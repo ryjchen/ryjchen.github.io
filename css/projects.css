@@ -101,6 +101,9 @@ b {
   	margin: 0 auto;
   	padding: 2% 0;
 }
+/*.brand-img {
+	
+}*/
 table {
 	font-family: 'Gentium Book Basic', serif;
 	font-size: 14px;
@@ -111,6 +114,11 @@ td, th {
 	border: 1px solid #eee;
 	text-align: left;
 	padding: 8px;
+}
+@media (max-width: 768px) {
+	.nextproj, .prevproj {
+		font-size: 11px;
+	}
 }
 @media (min-width: 768px) { 
   .process-img {
