@@ -45,8 +45,8 @@
 }
 .proj-cap {
   font-size: 18px;
-  font-weight: 400 !important;
-  padding-bottom: 5px;
+  font-weight: 700 !important;
+  padding-bottom: 10px;
 }
 h3 {
   font-size: 18px !important;
@@ -74,7 +74,9 @@ h3 {
 /*  margin-left: 5%;*/
 }
 .photo-overlay {
-  color: #fff;
+  /*color: #fff;*/
+  color: #333;
+  font-weight: 700 !important;
 /*  position: absolute;*/
   right: 0;
   bottom: 0; 
@@ -97,7 +99,8 @@ h3 {
 .slide .photo-overlay {
   opacity: 1;
   /*background: rgba(41,41,41,.9);*/
-  background: rgba(0,0,0,.65);
+  /*background: rgba(0,0,0,.65);*/
+  background: rgba(255,255,255,.88);
 }
 
 /*Media Queries*/
@@ -113,7 +116,7 @@ h3 {
   }*/
   .title {
     font-style: none;
-    font-size: 30px;
+    font-size: 28px !important;
   }
   .sftw-logo {
     max-height: 50px;
