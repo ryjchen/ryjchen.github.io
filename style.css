@@ -14,7 +14,7 @@ p {
 
 .subtext {
 	color: #919191;
-	font-size: 1rem;
+	font-size: 1.125rem;
 	font-style: italic;
 	margin: 1em 0 2em 0;
 }
@@ -30,7 +30,7 @@ a:hover {
 }
 
 /*Small screen*/
-@media (max-width: 1024px) {
+@media (max-width: 991px) {
 	.about, footer {
 		margin: 0 auto;
 		padding: 10% 8% 0% 8%;
@@ -49,7 +49,7 @@ a:hover {
 }
 
 /*Large screen*/
-@media (min-width: 1025px) {
+@media (min-width: 992px) {
     .about {
 	  margin: 0 auto;
 	  padding: 5% 28% 1% 28%;
