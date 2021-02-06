@@ -1,83 +1,76 @@
-#brand-img {
-    /*for favicon2*/
-    /*max-width: 175px;*/ 
-    max-width: 35px;
-    padding-top: 20px;
-    padding-left: 25px;
-}
-
 /*my name*/
 h1 {
-	font-family: 'Raleway', sans-serif;
-	margin: 15px 0 20px 0;
+	font-family: 'Francois One', sans-serif;
+	margin: 15px 0 10px 0;
 }
 
 /*content*/
 p {
-	font-family: 'Roboto', sans-serif;
-	line-height: 150%;
+	font-family: 'Open+Sans', sans-serif;
 	color: #666;
 	font-weight: 300;
+	line-height: 150%;
 }
 
-/*extra styling on texts for emphasis*/
-/*span {
-	border-style: none none dotted none;
-	border-color: #eee;
-}*/
+.subtext {
+	color: #999;
+	font-size: 0.875rem;
+	font-style: italic;
+	margin: 1em 0 2em 0;
+}
 
 /*link styling*/
 a {
 	text-decoration: none;
-	color: #FF8B34;
+	color: #30C1F0;
 	font-weight: 400;
 }
 a:hover {
-	color: #FE480F;
+	text-decoration: underline;
 }
-
-/*highlight styling*/
-::selection {
-	background: #f0f0f0;
-}
-
 
 /*Small screen*/
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
 	.about, footer {
 		margin: 0 auto;
-		padding: 10% 14% 0% 14%;
+		padding: 10% 12% 0% 12%;
 	}
 	h1 {
-		font-size: 26px;
+		font-size: 2rem;
 	}
 	p {
-		font-size: 18px;
-		/*margin: 0 0 10px 0;*/
+		font-size: 1.125rem;
+		padding-bottom: 1.25rem;
 	}
 	.fa {
 	    font-size: 30px !important;
-	    text-decoration: none;
-	    padding-right: 10px;
+	    margin-left: 10px;
 	}
 }
 
 /*Large screen*/
-@media (min-width: 992px) {
-    .about, footer {
+@media (min-width: 1025px) {
+    .about {
 	  margin: 0 auto;
-	  padding: 8% 28% 1% 28%;
+	  padding: 5% 28% 1% 28%;
+	}
+	footer {
+		margin: 0 auto;
+		padding: 0 28% 1% 28%;
 	}
     h1 {
-  	  font-size: 32px;
+  	  font-size: 2.5rem;
     }
     p {
-	  font-size: 22px;
-	  margin: 25px 0;
+	  font-size: 1.375rem;
+	  margin: 2rem 0;
 	}
 	.fa {
-	    font-size: 40px !important;
-	    text-decoration: none;
-	    padding-right: 15px;
+	    font-size: 35px !important;
+	    margin-left: 15px;
+	}
+	.subtext {
+		max-width: 80%;
 	}
 }
+
