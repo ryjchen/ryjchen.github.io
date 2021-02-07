@@ -12,14 +12,6 @@ p {
 	line-height: 150%;
 }
 
-.subtext {
-	color: #888;
-	/*font-size: 1.125rem;*/
-	font-size: 18px;
-	font-style: italic;
-	margin: 1em 0 2em 0;
-}
-
 /*link styling*/
 a {
 	text-decoration: none;
@@ -29,6 +21,38 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+
+/*subtext*/
+.subtext {
+	color: #888 !important;
+	font-size: 18px;
+	font-style: italic;
+	margin: 1em 0 2em 0;
+}
+
+/*Darkmode*/
+body.dark-theme {
+	background-color: #222;
+	color: #eee;
+}
+body.dark-theme p {
+	color: #eee;
+}
+button {
+	padding:0.4em 0.8em;
+	border-radius:2em;
+	color:#FFFFFF;
+	background-color:#30C1F0;
+	text-align:center;
+	border: none;
+}
+button:hover {
+	background-color:#0294C3;
+}
+button:focus {
+	outline: none;
+}
+
 
 /*Small screen*/
 @media only screen and (max-width: 991px) {
