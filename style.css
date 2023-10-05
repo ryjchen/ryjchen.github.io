@@ -15,7 +15,8 @@ p {
 /*link styling*/
 a {
 	text-decoration: none;
-	color: #30C1F0;
+	/*color: #30C1F0;*/
+	color: #5282FF;
 	font-weight: 400;
 }
 a:hover {
